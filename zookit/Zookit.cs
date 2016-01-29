@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace zookit
 {
-    public class Class1
+    public class Zookit
     {
-        public Class1()
+        public Zookit()
         {
         }
     }
