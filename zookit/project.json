@@ -1,10 +1,10 @@
 {
   "version": "1.0.0-*",
-  "description": "zookit Class Library",
-  "authors": [ "Class Library template" ],
-  "tags": [""],
-  "projectUrl": "",
-  "licenseUrl": "",
+  "description": "Zookit Zookeeper Config Management Class Library",
+  "authors": [ "Adron Hall" ],
+  "tags": ["zookeeper, forge, zookit"],
+  "projectUrl": "https://github.com/Adron/systemic-zookit",
+  "licenseUrl": "https://github.com/Adron/systemic-zookit/blob/master/LICENSE",
   "tooling": {
     "defaultNamespace": "zookit"
   },
