@@ -1,9 +1,2 @@
 ﻿language: csharp
-
-sudo: false  # use the new container-based Travis infrastructure 
-
-script: 
-  - xbuild Zookit.sln
-
-notifications:
-  slack: thrashingcode:APaL8WuJBKSYjkZYCeOLAAqq
+solution: Zookit.sln
