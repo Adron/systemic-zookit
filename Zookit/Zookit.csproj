@@ -36,5 +36,6 @@
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
     <None Include=".travis.yml" />
+    <None Include="README.md" />
   </ItemGroup>
 </Project>
