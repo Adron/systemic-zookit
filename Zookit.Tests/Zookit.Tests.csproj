@@ -41,7 +41,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Zookit.Temp\Zookit.csproj">
+    <ProjectReference Include="..\Zookit\Zookit.csproj">
       <Project>{D3291A44-444F-4CFF-B0C4-6121E51CB2F0}</Project>
       <Name>Zookit</Name>
     </ProjectReference>
