@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3291A44-444F-4CFF-B0C4-6121E51CB2F0}</ProjectGuid>
+    <ProjectGuid>{60DF9613-A008-42E8-8409-9F61DEB04923}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Zookit.Temp</RootNamespace>
-    <AssemblyName>Zookit.Temp</AssemblyName>
+    <RootNamespace>Zookit</RootNamespace>
+    <AssemblyName>Zookit</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

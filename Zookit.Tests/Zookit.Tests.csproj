@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BE323995-1CF6-42DF-B2CF-F11297BE7C23}</ProjectGuid>
+    <ProjectGuid>{8D29536B-6E7E-4F80-A52D-AB196AA21E59}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Zookit.Tests</RootNamespace>
     <AssemblyName>Zookit.Tests</AssemblyName>
@@ -34,7 +34,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Zookit.cs" />
+    <Compile Include="ZookitObjectThingy.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Zookit\Zookit.csproj">
-      <Project>{D3291A44-444F-4CFF-B0C4-6121E51CB2F0}</Project>
+      <Project>{60DF9613-A008-42E8-8409-9F61DEB04923}</Project>
       <Name>Zookit</Name>
     </ProjectReference>
   </ItemGroup>
