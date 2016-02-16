@@ -12,5 +12,15 @@ namespace Zookit.Tests
 			Assert.AreEqual (true, true);
 		}
 	}
+
+	[TestFixture ()]
+	public class Zookit
+	{
+		[Test()]
+		public void TestCase ()
+		{
+			Assert.AreSame (true, true);
+		}
+	}
 }
 
