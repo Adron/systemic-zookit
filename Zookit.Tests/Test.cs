@@ -19,7 +19,7 @@ namespace Zookit.Tests
 		[Test()]
 		public void TestCase ()
 		{
-			Assert.AreSame (true, true);
+			Assert.AreNotEqual (true, false);
 		}
 	}
 }
