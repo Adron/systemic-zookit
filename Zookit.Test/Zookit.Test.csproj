@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3291A44-444F-4CFF-B0C4-6121E51CB2F0}</ProjectGuid>
+    <ProjectGuid>{112F61AE-9E39-40D1-9BAC-03537593693C}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Zookit.Temp</RootNamespace>
-    <AssemblyName>Zookit.Temp</AssemblyName>
+    <RootNamespace>Zookit.Test</RootNamespace>
+    <AssemblyName>Zookit.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -29,16 +29,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="Togglez">
-      <HintPath>..\packages\togglez.0.0.6\lib\net45\Togglez.dll</HintPath>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ZookitIt.cs" />
+    <Compile Include="ZookitObjectThingy.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Zookit\Zookit.csproj">
+      <Project>{60DF9613-A008-42E8-8409-9F61DEB04923}</Project>
+      <Name>Zookit</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
