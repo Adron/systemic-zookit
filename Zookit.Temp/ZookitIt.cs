@@ -2,9 +2,9 @@
 
 namespace Zookit.Temp
 {
-	public class ZookitIt
+	public class Zookit
 	{
-		public ZookitIt ()
+		public Zookit ()
 		{
 		}
 	}
