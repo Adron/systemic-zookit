@@ -34,10 +34,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Test.cs" />
+    <Compile Include="Zookit.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Zookit.Temp\Zookit.csproj">
+      <Project>{D3291A44-444F-4CFF-B0C4-6121E51CB2F0}</Project>
+      <Name>Zookit</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
