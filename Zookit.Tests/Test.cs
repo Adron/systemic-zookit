@@ -9,6 +9,7 @@ namespace Zookit.Tests
 		[Test ()]
 		public void TestCase ()
 		{
+			Assert.AreEqual (true, true);
 		}
 	}
 }
