@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zookit", "Zookit.Temp\Zookit.csproj", "{D3291A44-444F-4CFF-B0C4-6121E51CB2F0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zookit.Tests", "Zookit.Tests\Zookit.Tests.csproj", "{BE323995-1CF6-42DF-B2CF-F11297BE7C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zookit", "Zookit\Zookit.csproj", "{D3291A44-444F-4CFF-B0C4-6121E51CB2F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
