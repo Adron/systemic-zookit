@@ -5,6 +5,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zookit", "Zookit\Zookit.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zookit.Tests", "Zookit.Tests\Zookit.Tests.csproj", "{8D29536B-6E7E-4F80-A52D-AB196AA21E59}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{C29F281D-73EC-44D7-99CA-FEB4420C3A81}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		LICENSE = LICENSE
+		.travis.yml = .travis.yml
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +27,7 @@ Global
 		{8D29536B-6E7E-4F80-A52D-AB196AA21E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D29536B-6E7E-4F80-A52D-AB196AA21E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D29536B-6E7E-4F80-A52D-AB196AA21E59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
