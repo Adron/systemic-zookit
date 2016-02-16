@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zookit", "Zookit\Zookit.csproj", "{60DF9613-A008-42E8-8409-9F61DEB04923}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zookit.Tests", "Zookit.Tests\Zookit.Tests.csproj", "{8D29536B-6E7E-4F80-A52D-AB196AA21E59}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{C29F281D-73EC-44D7-99CA-FEB4420C3A81}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
@@ -13,20 +11,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zookit.Test", "Zookit.Test\Zookit.Test.csproj", "{112F61AE-9E39-40D1-9BAC-03537593693C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{112F61AE-9E39-40D1-9BAC-03537593693C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{112F61AE-9E39-40D1-9BAC-03537593693C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{112F61AE-9E39-40D1-9BAC-03537593693C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{112F61AE-9E39-40D1-9BAC-03537593693C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{60DF9613-A008-42E8-8409-9F61DEB04923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{60DF9613-A008-42E8-8409-9F61DEB04923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60DF9613-A008-42E8-8409-9F61DEB04923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60DF9613-A008-42E8-8409-9F61DEB04923}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D29536B-6E7E-4F80-A52D-AB196AA21E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D29536B-6E7E-4F80-A52D-AB196AA21E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D29536B-6E7E-4F80-A52D-AB196AA21E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D29536B-6E7E-4F80-A52D-AB196AA21E59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

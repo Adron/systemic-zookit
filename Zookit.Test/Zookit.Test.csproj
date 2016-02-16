@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8D29536B-6E7E-4F80-A52D-AB196AA21E59}</ProjectGuid>
+    <ProjectGuid>{112F61AE-9E39-40D1-9BAC-03537593693C}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Zookit.Tests</RootNamespace>
-    <AssemblyName>Zookit.Tests</AssemblyName>
+    <RootNamespace>Zookit.Test</RootNamespace>
+    <AssemblyName>Zookit.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -30,7 +30,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.3.0.1\lib\net45\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -38,12 +38,12 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Zookit\Zookit.csproj">
       <Project>{60DF9613-A008-42E8-8409-9F61DEB04923}</Project>
       <Name>Zookit</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
 </Project>
