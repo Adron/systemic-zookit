@@ -1,2 +1,5 @@
 language: csharp
 solution: Zookit.sln
+
+notifications:
+  slack: thrashingcode:APaL8WuJBKSYjkZYCeOLAAqq
