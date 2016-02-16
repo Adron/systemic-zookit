@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Zookit
+namespace Zookit.Temp
 {
 	public class MyClass
 	{

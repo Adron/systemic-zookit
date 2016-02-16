@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zookit", "Zookit\Zookit.csproj", "{21846AF6-01EE-4C65-9284-72D595C1859B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zookit", "Zookit.Temp\Zookit.csproj", "{D3291A44-444F-4CFF-B0C4-6121E51CB2F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +9,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{21846AF6-01EE-4C65-9284-72D595C1859B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21846AF6-01EE-4C65-9284-72D595C1859B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21846AF6-01EE-4C65-9284-72D595C1859B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21846AF6-01EE-4C65-9284-72D595C1859B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3291A44-444F-4CFF-B0C4-6121E51CB2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3291A44-444F-4CFF-B0C4-6121E51CB2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3291A44-444F-4CFF-B0C4-6121E51CB2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3291A44-444F-4CFF-B0C4-6121E51CB2F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
