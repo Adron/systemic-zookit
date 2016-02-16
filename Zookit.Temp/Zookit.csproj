@@ -3,13 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{70732861-3205-4B38-94B3-F7E0CBF67B9D}</ProjectGuid>
+    <ProjectGuid>{D3291A44-444F-4CFF-B0C4-6121E51CB2F0}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Zookit</RootNamespace>
-    <AssemblyName>Zookit</AssemblyName>
+    <RootNamespace>Zookit.Temp</RootNamespace>
+    <AssemblyName>Zookit.Temp</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,12 +28,17 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Togglez">
+      <HintPath>..\packages\togglez.0.0.6\lib\net45\Togglez.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <None Include=".travis.yml" />
-    <None Include="README.md" />
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
