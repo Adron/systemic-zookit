@@ -1,0 +1,5 @@
+source https://www.nuget.org/api/v2/
+framework >= net45
+
+nuget NUnit 2.6.4
+nuget togglez 0.0.6
