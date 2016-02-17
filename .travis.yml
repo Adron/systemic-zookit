@@ -5,7 +5,7 @@ install:
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Release Zookit.sln
-  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./Zookit.Tests/bin/Release/Zookit.Test.dll
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./Zookit.Test/bin/Release/Zookit.Test.dll
 notifications:
   slack: thrashingcode:APaL8WuJBKSYjkZYCeOLAAqq
   slack: hdqc:irnHuq9qxZDGs7eclxV3eBws
