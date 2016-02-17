@@ -11,8 +11,8 @@ namespace Zookit.Tests
 		public void TestCase ()
 		{
 			var zookit = new ZookitObjectThingy ();
-			var results = zookit.JustTrue ();
-			Assert.AreEqual (results, true);
+			var result = zookit.JustTrue ();
+			Assert.AreEqual (result, true);
 		}
 	}
 }

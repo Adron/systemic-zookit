@@ -34,7 +34,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ZookitObjectThingy.cs" />
+    <Compile Include="ZookitForgeTests.cs" />
+    <Compile Include="ZookitObjectThingyTests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
