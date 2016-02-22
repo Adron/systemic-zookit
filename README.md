@@ -6,12 +6,10 @@
 
 A basic tool for using [Zookeeper](https://zookeeper.apache.org/) as configuration for application services development based on convention (as described below).
 
-## Togglez
+## Prerequisites
 
-For this particular library, to gain communication to Zookeeper, I've used [Togglez](https://github.com/adron-orange/togglez).
+To run this project or set it up for use you will need the following items installed and configured before.
 
-## Zookeeper Information
+**Additional [Library Information & History](docs/information-history.md).**
 
-This library uses Zookeeper as the core repository of configuration data. To learn more about Zookeeper checkout the following blog entry I've put together on the topic here on "[Researching and Learning Zookeeper: A Guide](http://compositecode.com/2016/02/01/researching-learning-about-zookeeper-a-guide/)"
-
-Creator: Adron @ [Github](https://www.github.com/adron) or [Twitter](https://twitter.com/adron)
+*Author:* **Adron** @ **[Github](https://www.github.com/adron)** or **[Twitter](https://twitter.com/adron)**.
