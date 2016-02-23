@@ -1,6 +1,9 @@
 # systemic-zookit
 
-[![Build Status](https://travis-ci.org/Adron/systemic-zookit.svg?branch=master)](https://travis-ci.org/Adron/systemic-zookit)
+[![Build Status](https://img.shields.io/travis/Adron/systemic-zookit.svg?style=flat-square)]()
+[![License](https://img.shields.io/github/license/adron/systemic-zookit.svg?style=flat-square)]()
+[![Issues](https://img.shields.io/github/issues/adron/systemic-zookit.svg?style=flat-square)]()
+[![Maintenance](https://img.shields.io/maintenance/yes/2016.svg?style=flat-square)]()
 
 ## Description
 
