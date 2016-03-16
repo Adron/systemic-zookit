@@ -9,12 +9,13 @@
 
 A basic tool for using [Zookeeper](https://zookeeper.apache.org/) as configuration for application services development based on convention (as described below).
 
-## Togglez
+## Prerequisites
 
-For this particular library, to gain communication to Zookeeper, I've used [Togglez](https://github.com/adron-orange/togglez).
+To run this project or set it up for use or development the following are needed.
 
-## Zookeeper Information
+* Zookeeper Instance
+* .NET 4.5 and/or the latest Mono (testing versions now) More information TBD as testing is done and dependencies on legacy versions of .NET are removed. Ideally this is focused on and will build primarily for Core CLR without regard for legacy versions of .NET.
 
-This library uses Zookeeper as the core repository of configuration data. To learn more about Zookeeper checkout the following blog entry I've put together on the topic here on "[Researching and Learning Zookeeper: A Guide](http://compositecode.com/2016/02/01/researching-learning-about-zookeeper-a-guide/)"
+**Additional [Library Information & History](docs/information-history.md).**
 
-Creator: Adron @ [Github](https://www.github.com/adron) or [Twitter](https://twitter.com/adron)
+*Author:* **Adron** @ **[Github](https://www.github.com/adron)** or **[Twitter](https://twitter.com/adron)**.

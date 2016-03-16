@@ -1,0 +1,7 @@
+FRAMEWORK: >= NET45
+NUGET
+  remote: https://www.nuget.org/api/v2
+  specs:
+    Edge.js (4.0.0)
+    NUnit (2.6.4)
+    Togglez (0.0.6)
